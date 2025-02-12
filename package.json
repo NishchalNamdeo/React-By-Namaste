@@ -4,6 +4,8 @@
   "description": "this is react",
   "main": "app.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -20,7 +22,8 @@
   },
   "homepage": "https://github.com/NishchalNamdeo/React-By-Namaste#readme",
   "devDependencies": {
-    "parcel": "^2.13.3"
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^19.0.0",
